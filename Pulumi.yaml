@@ -1,0 +1,7 @@
+name: sunny
+runtime: go
+description: k3d cluster with 1 agnet 1 master
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/a576991e-d3ef-4e43-bd1f-349c92a3ba42.zip
